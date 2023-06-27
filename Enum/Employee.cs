@@ -27,7 +27,7 @@ namespace Enum
         {
             return count;
         }
-        public virtual void CalculateSalary()
+        public void CalculateSalary()
 
         {
             hra = bs * 0.40;

@@ -18,10 +18,12 @@ namespace Enum
             //emp2.CalculateSalary();
             //Console.WriteLine(emp2);
 
-            Student s1 = new Student("Nir", 55, 88.96, Streams.Civil);
+            Student s1 = new Student("Nir", 55,66,55,99, Streams.Civil);
+            s1.Calculate();
             Console.WriteLine(s1.ToString());
 
-            Student s2 = new Student("sagar", 15, 98.96, Streams.Mech);
+            Student s2 = new Student("sagar", 15,65,98,45, Streams.Mech);
+            s2.Calculate();
             Console.WriteLine("\n"+s2.ToString());
         }
     }
